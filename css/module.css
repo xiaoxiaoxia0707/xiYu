@@ -1,0 +1,315 @@
+.swiper-content {
+     /**轮播图的内容**/
+     width: 100%;
+     height: 580px;
+ }
+ 
+ .swiper-container {
+     width: 100%;
+     height: auto;
+ }
+
+ .swiper-slide {
+     text-align: center;
+     font-size: 18px;
+     background: #fff;
+ }
+.swiper-container .swiper-slide {
+        height: 580px;
+        height: 580px;
+}
+    
+
+  /*****************************************************************业务方向部分************************************/
+ .business-content{
+    height:400px;
+    background-color: #fff;
+    width: 100%;
+ }
+ .business-middle{
+    height:426px;
+    width: 800px;
+    margin: 0 auto;
+ }
+ .business-middle h2{
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 102px;
+    color: #0091ff;
+    letter-spacing: 2px;
+    text-align: center;
+ }
+ .business-middle .business-inf{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #666666;
+ }
+ .business-middle ul{
+    width: 800px;
+    margin-top: 42px;
+    height: 136px;
+ }
+ .business-middle ul li{
+    float: left;
+    width: 200px;
+     height: 136px;
+
+ }
+ .business-middle ul li div{
+    width: 199px;
+    border-right:1px solid #fff;
+    height:48px;
+    background-color: #0091ff;
+    color: #ffffff;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 18px;
+ }
+ .business-middle ul li p{
+    color: #444444;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+ }
+ /*****************************************************************服务体系部分************************************/
+.service-content{
+    width: 100%;
+    height:578px;
+    background-color: #2a2b2e;
+}
+ .service-middle{
+    width: 962px;
+    height: 548px;
+    margin: 0 auto;
+}
+.service-middle h2{
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #fff;
+    padding-top: 30px;
+    letter-spacing: 2px;
+    text-align: center; 
+}
+.service-middle h6{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-align: center; 
+}
+.service-middle ul{
+    width: 962px;
+    margin-top: 58px;
+    height: 248px;
+}
+.service-middle ul li{
+     float: left;
+    width: 320px;
+     height: 136px;
+}
+.service-middle ul li p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+     margin-left: 30px;
+ }
+.service-middle ul li h5{
+    margin-left: 30px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 22px;
+ }
+  /*****************************************************************我们的团队部分************************************/
+  .team-content{
+    width: 100%;
+    height:600px;
+    background-color: #fff;
+  }
+  .team-content .team-middle{
+    height:572px;
+    width: 1260px;
+    margin:0 auto;
+  }
+.team-middle h2{
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #0091ff;
+    padding-top: 28px;
+    letter-spacing: 2px;
+    text-align: center; 
+}
+.team-middle h5{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+    color: #0091ff;
+    letter-spacing: 2px;
+    text-align: center; 
+    margin-bottom: 26px;
+}
+.team-middle .team-inf{
+     font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+}
+.team-middle ul{
+     width: 1260px;
+    margin-top: 74px;
+    height: 240px;
+}
+.team-middle ul li{
+     float: left;
+    width: 304px;
+     height: 240px;
+     margin-right: 14px;
+}
+.team-middle ul li:nth-last-of-type(1){
+    margin-right: 0px;
+}
+.team-middle ul li p{
+    color: #333333;
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+ }
+  /*****************************************************************我们的项目案例部分************************************/
+  .project-content{
+    width: 100%;
+    height: 886px;
+    background-color: #2a2b2e;
+  }
+  .project-middle{
+    width: 1206px;
+    height: 886px;
+    background-color: #2a2b2e;
+  }
+   /*****************************************************************联系我们内容部分************************************/
+ .contact-content{
+  height: 800px;
+  width:100%;
+  background-color:#f7f7f7; 
+ }
+ .contact-middle{
+  width:1182px;
+  margin: 0 auto;
+  height: 800px;
+ }
+ .contact-content img{
+  padding-top: 70px;
+  display: block;
+  margin: 0 auto;
+  width:1182px;
+  height: 10px;
+ }
+ .contact-content h3{
+  color: #5d5d5d;
+  margin-top: 60px;
+  font-size:26px;
+  line-height:30px;
+ }
+.contact-content h3 span{
+  font-size: 20px;
+  
+  color: #7b7b7b;
+  font-weight: normal!important;
+  margin-left: 8px;
+}
+.contact-content h4{
+  color: #7b7b7b;
+  font-size:24px;
+  font-weight: normal;
+  margin: 30px 0;
+}
+.contact-content ul{
+  float: left;
+}
+.contact-content ul p{
+  margin-bottom: 40px;
+  color: #979696;
+  font-size:16px;
+  font-weight: normal;
+  line-height: 32px;
+}
+.contact-content ul .infP{
+  margin:0 0 40px 0;
+}
+.contact-content ul li{
+  width: 700px;
+  height:20px;
+  margin-bottom: 20px;
+}
+.ride-li{
+  margin-bottom: 10px!important;
+}
+.contact-content ul h6,.contact-content ul span{
+  line-height: 20px;
+  font-size: 16px;
+  float: left;
+
+}
+.contact-content ul h6{
+  color: #434141;
+}
+.contact-content ul span{
+  letter-spacing: 1px;
+  margin-left: 2px;
+  color: #778089;
+}
+.contact-content .qrCode{
+  float: left;
+  padding:0!important;
+  width: 140px!important;
+  height:140px!important;
+  margin:0!important;
+}
+.contact-content  h5{
+  float: left;
+  color: #444444;
+  font-size: 16px;
+  margin-left: 30px;
+  line-height: 140px;
+  letter-spacing: 1px;
+  }
+.contact-content  form{
+  float: right;
+  width: 480px;
+  height:466px;
+}
+.contact-content input{
+  border: 1px solid #e8e8e8;
+  padding:0 0 0 30px;
+  border-radius: 20px;
+  height:46px;
+  background-color: #e8e8e8;
+  width: 480px;
+  margin-bottom: 40px;
+  line-height: 46px;
+}
+.contact-content .input-textarea{
+  line-height: 180px;
+  height:180px!important;
+
+}
+.contact-content .saveBtn{
+  width: 160px;
+  height:46px;
+  border-radius: 20px;
+  background-color: #0091ff;
+  color: #fff;
+  text-align: center;
+  line-height: 46px;
+  font-size: 16px;
+  }
+  /*****************************************************************卓越内容部分************************************/
+  .excellent-content,.excellent-content img{
+  margin: 0 auto;
+  width:100%;
+ }

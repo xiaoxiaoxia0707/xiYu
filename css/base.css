@@ -1,0 +1,167 @@
+body,h2,p,h1,h6,h3,h5,ul,li{
+	margin: 0;
+	padding:0;
+}
+ul li{
+	list-style-type: none;
+}
+input{outline:none;}
+a{text-decoration:none;}
+/*****************************************************************头部内容部分************************************/
+header {
+	width: 100%;
+	height: 90px;
+	background-color: #3a3b3c;
+}
+.header-middle{
+	margin: 0 auto;
+	width:1262px;
+	height: 90px;
+}
+.header-middle .logo{
+	float: left;
+	margin-top: 22px;
+}
+.header-middle ul{
+	float: right;
+	height:90px;
+}
+.header-middle ul li{
+	height:64px;
+	padding-top: 26px;
+	float: left;
+	margin-right: 80px;
+}
+.header-middle ul li:nth-last-of-type(1){
+	margin-right: 0px;
+}
+.header-middle ul  li span{
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	color: #ededed;
+}
+.header-middle ul  li p{
+	margin-bottom: 2px;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #ededed;
+}
+.header-middle ul  li .active{
+	color: #0091ff;
+}	
+ /*****************************************************************联系内容部分************************************/
+
+.touch-content{
+	width: 100%;
+	height: 422px;
+	background-color: #fff;
+}
+.touch-middle{
+	margin: 0 auto;
+	width:1182px;
+	height: 422px;
+}
+.touch-middle .logo{
+	margin-left: 38px;
+	float: left;
+
+}
+.touch-middle .title-div{
+	margin-top: 54px;
+	width: 100%;
+}
+.touch-middle div{
+	float: left;
+}
+.touch-middle .touch-information{
+	margin-top: 64px;
+}
+.touch-middle .touch-information .email{
+	font-size: 14px;
+	color: #a3a3a3;
+	padding-left: 16px;
+	line-height: 36px;
+	margin-left: 40px;
+	border-radius: 12px;
+	width: 358px;
+	height: 36px;
+	border: 1px solid #e8e8e8;
+	border-radius: 20px;
+	background-color: #e8e8e8;
+	float: left;
+}
+.touch-middle .touch-information .send{
+	text-align: center;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 36px;
+	border-radius: 16px;
+	float: left;
+	margin-left: 16px;
+	width: 106px;
+	height: 36px;
+	background-color: #0091ff;
+}
+.touch-middle .touch-information h6{
+	padding-left: 46px;
+	margin-top: 62px;
+	font-size: 16px;
+	color: #778089;
+	font-weight: normal;
+}
+.touch-middle  .touch{
+	margin-top: 64px;
+	float: left;
+	margin-left:52px;
+}
+.touch-middle  .touch p{
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #778089;
+}
+.touch-middle .touch p:first-child{
+	margin-bottom: 24px;
+}
+.qrCode{
+	margin-left: 18px;
+	margin-top: 42px;
+}
+.qrCode p{
+	letter-spacing: 1px;
+	font-size: 12px;
+	color: #778089;
+}
+ /*****************************************************************底部内容部分************************************/
+ .footer{
+ 	width: 100%;
+ 	height: 76px;
+ 	background-color: #2a2b2e;
+ }
+ .footer .footer-middle{
+ 	margin: 0 auto;
+	width:1182px;
+	height: 76px;
+ }
+
+ .footer-middle p{
+ 	font-size: 14px;
+ 	line-height: 76px;
+ 	float: left;
+ }
+ .footer-middle p span{
+ 	color: #27c5ff;
+ }
+ .footer-middle  div{
+ 	float: right;
+ 	width: 186px;
+ 	margin-top: 24px;
+ }
+ .footer-middle  div img{
+ 	margin-left: 26px;
+ }
+ .footer-middle  div img:first-child{
+ 	margin-left: 0px;
+ }
+ 
