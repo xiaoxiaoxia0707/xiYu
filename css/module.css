@@ -14,12 +14,93 @@
      font-size: 18px;
      background: #fff;
  }
-.swiper-container .swiper-slide {
-        height: 580px;
-        height: 580px;
+.index-swiper-container .swiper-slide {
+  height: 580px;
 }
-    
-
+.project-swiper-container .swiper-slide {
+  width: 285px!important;
+  height: 213px;
+  background-color: #2a2b2e;
+}
+.project-swiper-container{
+  height: 270px;
+}
+.project-swiper-container .swiper-slide {
+  height: 270px;
+}
+.project-swiper-container .swiper-slide img{
+  width: 285px;height:213px
+}
+.project-swiper-container .swiper-slide p{
+ line-height:50px;
+ font-size: 16px;
+ color: #fff; 
+ text-align: center;
+}
+/***新闻动态***/
+.new-dynamic{
+  height:280px;
+  margin-top:82px;
+}
+.new-dynamic div,.new-dynamic .line-span{
+  float: left;
+}  
+.new-dynamic div:last-child{
+  float: right;
+}   
+.new-dynamic h3{
+   font-size: 20px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+.new-dynamic h3 span{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-left: 4px;
+}
+.new-dynamic h3 span{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin-left: 4px;
+}
+.newOne-info p{
+  font-size: 14px;
+  color: #fff;
+  line-height: 20px;
+}
+.newOne-info p:nth-child(odd){
+ margin-bottom: 34px;
+}
+.line-span{
+  margin-left: 80px;
+  height:208px;
+  margin-top:56px; 
+  background-color: #ababab;
+  width: 2px;
+}
+.newTwo-info{
+  margin-top: 54px;
+}
+.newTwo-info p{
+  color: #fff;
+  line-height: 30px;
+}
+.newTwo-info h4{
+  color: #fff;
+  font-size: 20px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  line-height: 30px;
+}
   /*****************************************************************业务方向部分************************************/
  .business-content{
     height:400px;
@@ -188,8 +269,27 @@
   }
   .project-middle{
     width: 1206px;
-    height: 886px;
-    background-color: #2a2b2e;
+    height: 868px;
+    margin: 0 auto;
+  }
+  .project-middle h2{
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #fff;
+    padding-top: 28px;
+    letter-spacing: 2px;
+    text-align: center; 
+
+
+  }
+  .project-middle h5{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 68px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center; 
   }
    /*****************************************************************联系我们内容部分************************************/
  .contact-content{
