@@ -7,7 +7,7 @@ ul li{
 }
 a{text-decoration:none;}
 input,textarea{outline:none;}
-textarea{resize:none;}//禁止拉伸
+textarea{resize:none;}
 /*****************************************************************头部内容部分************************************/
 header {
 	width: 100%;
