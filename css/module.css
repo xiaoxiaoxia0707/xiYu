@@ -383,7 +383,9 @@
   width: 480px;
   height:466px;
 }
-.contact-content input{
+.contact-content input,textarea{
+  font-size: 14px;
+  font-family: "Adobe 黑体 ";
   border: 1px solid #e8e8e8;
   padding:0 0 0 30px;
   border-radius: 20px;
@@ -394,7 +396,7 @@
   line-height: 46px;
 }
 .contact-content .input-textarea{
-  line-height: 180px;
+ line-height: 26px;
   height:180px!important;
 
 }
