@@ -19,7 +19,7 @@
                     <img alt="夕宇logo图" class="logo" src="images/xiyu.png">
                         <ul>
                             <li>
-                                <a href="">
+                                <a href="#">
                                     <p class="active">
                                         关于夕宇
                                     </p>
@@ -29,28 +29,34 @@
                                 </a>
                             </li>
                             <li>
+                                <a href="#">
                                 <p>
                                     项目案例
                                 </p>
                                 <span>
                                     PROJECT CASE
                                 </span>
+                                </a>
                             </li>
                             <li>
+                                <a href="cooperation.html">
                                 <p>
                                     商务合作
                                 </p>
                                 <span>
                                     COOPERATION
                                 </span>
+                                </a>
                             </li>
                             <li>
+                                <a href="contactUs.html">
                                 <p>
                                     联系我们
                                 </p>
                                 <span>
                                     CONTACT US
                                 </span>
+                                </a>
                             </li>
                         </ul>
                     </img>
@@ -434,7 +440,13 @@
         pagination: '.project-swiper-pagination',
         slidesPerView: 4,
         paginationClickable: true,
-        spaceBetween: 30
+        spaceBetween: 30,
+         speed: 2000,
+            loop: true,
+            observer:true,
+            observeParents:true,
+            autoplayDisableOnInteraction : true,//开始自动播放,等到点击时不自动播放
+            autoplay:1500
     });
         </script>
     </body>
