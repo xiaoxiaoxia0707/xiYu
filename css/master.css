@@ -1,0 +1,255 @@
+
+/************************咨询*********************************/
+.informationOne-content,.informationOne-content .bg-1,.informationOne-content,.bg-2,.informationThree-content,.bg-3,.informationFour-content,.bg-4{
+ 	margin: 0 auto;
+	width:100%;
+	// height:440px;
+ } 
+.consultation-div {
+	margin-top: 180px;
+	height:410px;
+	width: 100%;
+ 	position: absolute;
+}
+.consultation-div ul li{
+	margin-left: 50px;
+	float: left;
+	width: 350px;
+	height: 180px;
+}
+.consultation-div ul li:last-child{
+	margin-left: 30px;
+}
+.consultation-div ul div{
+	width: 350px;
+	height: 68px;
+	margin-bottom: 22px;
+}
+.consultation-div ul  div img,.consultation-div ul  div h5{
+	float: left;
+}
+.consultation-div ul  div .phone-img{
+	margin-top: 10px;
+}
+.consultation-div ul  div img{
+	margin-top: 20px;
+}
+.consultation-div ul  div h5{
+	font-size: 28px;
+	line-height: 68px;
+	color: #fff;
+	font-weight: normal;
+	margin-left: 20px;
+}
+.consultation-div ul  p{
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+	margin-bottom: 18px;
+}
+.consultation-div ul span{
+	display: block;
+	width: 26px;
+	height: 2px;
+	background-color: #fff;
+}
+.ul-div {
+	width: 1180px;
+	margin: 0 auto;
+	height: 180px;
+}
+.consultationBtn {
+	margin: 180px auto 0;
+	width: 200px;
+	height:42px;
+	border:1px solid #33adf5;
+	color: #fff;
+	font-size: 22px;
+	line-height: 42px;
+	text-align: center;
+}
+/************************关于我们的介绍*********************************/
+.informationTwo-middle{
+	margin-top: 180px;
+	height:180px;
+	width: 100%;
+ 	position: absolute;
+}
+.informationTwo-middle-main ul li{
+	float: left;
+	width: 280px;
+	height: 180px;
+}
+.informationTwo-middle-main ul li:last-child{
+	margin-left: 30px;
+}
+.informationTwo-middle-main ul div{
+	width: 280px;
+	height: 68px;
+}
+.informationTwo-middle-main ul  div img,.informationTwo-middle-main ul  div h5{
+	float: left;
+}
+.informationTwo-middle-main ul  div .mouse-img{
+	margin-top: 6px;
+}
+.informationTwo-middle-main ul  div img{
+	margin-top: 15px;
+}
+.informationTwo-middle-main  ul  div h5{
+	font-size: 18px;
+	line-height: 58px;
+	color: #fff;
+	font-weight: normal;
+	margin-left: 20px;
+}
+.informationTwo-middle-main  ul  p{
+	font-size: 12px;
+	line-height: 18px;
+	color: #f6f9fa;
+	margin-bottom: 18px;
+}
+.informationTwo-middle-main  ul span{
+	display: block;
+	width: 26px;
+	height: 2px;
+	background-color: #fff;
+}
+.informationTwo-middle-main {
+	width: 1180px;
+	margin: 0 auto;
+	height: 180px;
+}
+.informationTwo-middle-main  h2{
+	font-weight: normal;
+	font-size: 30px;
+	color: #2fa1e5;
+	float: left;
+	margin-top: 54px;
+	margin-left: 50px;
+}
+.informationTwo-middle-main ul{
+	margin-right: 20px;
+	float: right;
+}
+/************************我们创造*********************************/
+.informationThree-middle{
+
+	height:300px;
+	width: 100%;
+ 	position: absolute;
+}
+.informationThree-middle-main{
+	width: 1180px;
+	margin: 0 auto;
+	height:300px;
+}
+.informationThree-middle-main h2{
+	float: left;
+	font-size: 28px;
+	color: #fff;
+	margin-top: 48px;
+	line-height: 40px;
+	font-weight: normal;
+	margin-left: 50px;
+}
+.informationThree-middle-main img{
+	height:600px;
+	float: right;
+}
+/************************我们案例研究*********************************/
+.informationFour-middle{
+	// height:300px;
+	width: 100%;
+ 	position: absolute;
+}
+.informationFour-middle-main{
+	width: 1180px;
+	margin: 0 auto;
+	// height:300px;
+}
+.informationFour-middle-main h2{
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+	margin-top: 28px;
+	line-height: 34px;
+	font-weight: normal;
+	letter-spacing: 2px;
+}
+.informationFour-middle-main span{
+	margin: 30px auto;
+	width: 56px;
+	height:2px;
+	display: block;
+	background-color: #fff;
+}
+.informationFour-middle-main img{
+	// height:390px;
+	width: 100%;
+}
+.informationFour-middle-main div{
+	font-weight: normal;
+	margin: 30px auto 0;
+	width: 300px;
+	height:60px;
+	color: #fff;
+	font-size: 22px;
+	line-height: 60px;
+	text-align: center;
+	color: #fff;
+	background-color: #2fa2e5;
+}
+/************************加盟合作*********************************/
+.join-content,.join-content img{
+ 	margin: 0 auto;
+	width:100%;
+	// height:440px;
+ } 
+ .join-content h3{
+ 	width: 100%;
+ 	position: absolute;
+ 	text-align: center;
+ 	line-height: 30px;
+ 	color: #0a0b08;
+ 	font-size: 24px;
+ 	 margin-top: 20px;
+ }
+ .join-content div{
+	width: 100%;
+ 	position: absolute;
+ 	margin-top: 80px;
+ 	
+ }
+ .join-content i{
+ 	background: url("../images/jiantou.png")no-repeat;
+ 	width: 30px;
+ 	height:30px;
+ 	display: block;
+ 	margin: 0 auto;
+
+ }
+
+ .join-content h4{
+ 	width: 100%;
+ 	position: absolute;
+ 	text-align: center;
+ 	line-height: 20px;
+ 	color: #999999;
+ 	font-size: 18px;
+ 	 margin-top: 50px;	
+ }
+ .join-content p{
+ 	width: 100%;
+ 	position: absolute;
+ 	text-align: center;
+ 	line-height: 26px;
+ 	color: #666666;
+ 	font-size: 14px;
+ 	margin-top: 120px;	
+ }
+  .join-content p:nth-last-of-type(1){
+  	margin-top: 140px;
+  }
+
+ 
