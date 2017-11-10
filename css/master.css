@@ -251,5 +251,206 @@
   .join-content p:nth-last-of-type(1){
   	margin-top: 140px;
   }
-
- 
+  /********************************项目案例单张图片介绍*************************************/
+  .inf-content,.inf-content img{
+  	width: 100%;
+  	margin: 0 auto;
+  }
+   /********************************项目案例我们的服务*************************************/
+.service-content{
+	height: 620px;
+	width: 100%;
+	background-color: #fff;
+}
+.service-content .service-middle{
+	width: 1312px;
+	height:620px;
+	margin:0 auto;
+}
+.service-middle h2{
+	 font-size: 26px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #0091ff;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    text-align: center; 
+}
+.service-middle h5{
+	  font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #0091ff;
+    letter-spacing: 1px;
+    text-align: center; 
+    margin-bottom: 48px;
+}
+.service-middle li{
+	float: left;
+	width: 437px;
+	float: left;
+	height:438px;
+}
+.service-middle li img{
+	display: block;
+	margin: 0 auto 20px;
+}
+.service-middle li h6{
+	 font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #222222;
+    letter-spacing: 1px;
+    text-align: center; 
+}
+.service-middle li p{
+	 font-size: 14px;
+    line-height: 24px;
+    color: #696868; 
+    text-align: center; 
+}
+/********************************项目案例*************************************/
+.project-swiper-container .swiper-slide {
+  width: 285px!important;
+  height: 213px;
+  background-color: #2a2b2e;
+}
+.project-swiper-container{
+  height: 320px;
+}
+.project-swiper-container .swiper-slide {
+  height: 270px;
+}
+.project-swiper-container .swiper-slide img{
+  width: 285px;height:213px
+}
+.project-swiper-container .swiper-slide p{
+ line-height:50px;
+ font-size: 16px;
+ color: #fff; 
+ text-align: center;
+}
+  .project-content{
+    width: 100%;
+    height: 528px;
+    background-color: #2a2b2e;
+  }
+  .project-middle{
+    width: 1206px;
+    height: 528px;
+    margin: 0 auto;
+  }
+  .project-middle h2{
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 40px;
+    color: #fff;
+    padding-top: 28px;
+    letter-spacing: 2px;
+    text-align: center; 
+  }
+  .project-middle h5{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 68px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-align: center; 
+  }
+  /********************************推广项目************************************/
+  .promotionCase-content{
+  	background-color: #f9f9f9;
+		width: 100%;
+		height: 1550px;
+  }
+  .promotionCase-content .promotionCase-middle{
+		width: 1208px;
+		margin: 0 auto;
+		padding-top: 70px;
+		height: 1480px;
+  }
+  .promotionCase-left{
+  	width: 743px;
+  	float: left;
+  	height: 1400px;
+  }
+  .promotionCase-right{	
+  	width: 386px;
+  	float: right;
+  	height: 1400px;
+  }
+  .promotionCase-left .div-p{
+  	width: 741px;
+  	height: 84px;
+  	background: #fff;
+  	border: 1px solid #cccccc;
+  	line-height: 84px;
+  	color: #333333;
+  	font-size: 20px;
+  	margin-bottom: 32px;
+  }
+  .promotionCase-left .div-p span{
+  	margin-left: 20px;	  
+ }
+ .dongfeng-div,.mengniu-div,.hongxing-div,.lexing-div{
+ 	border-left: 1px solid #cccccc;
+  	border-right: 1px solid #cccccc;
+  	border-bottom: 1px solid #cccccc;
+  	background-color: #fff;
+ }
+ .dongfeng-div{
+ 	height: 620px;
+ }
+ .dongfeng-div h3,.mengniu-div h3{
+ 	letter-spacing: 1px;
+ 	font-size: 20px;
+ 	line-height: 40px;
+ 	color: #1c1c1c;
+ 	margin-left: 36px;
+ }
+ .dongfeng-div .time-p,.mengniu-div .time-p{
+ 	line-height: 30px;
+ 	color: #999999;
+ 	font-size: 16px;
+ 	margin-left: 36px;
+ 	margin-bottom: 10px;
+ }
+.dongfeng-div p:last-child,.mengniu-div p:last-child{
+	line-height: 20px;
+ 	color: #1c1c1c;
+ 	font-size: 14px;
+ 	margin-left: 36px;
+}
+.mengniu-div{
+	margin-top:40px;
+  	height: 620px;
+ }
+ .hongxing-div{
+ 	height: 510px;
+ }
+.lexing-div{
+ 	height: 560px;
+ }
+.hongxing-div h3,.lexing-div h3{
+letter-spacing: 1px;
+ 	font-size: 18px;
+ 	line-height: 34px;
+ 	color: #1c1c1c;
+ 	margin-left: 18px;
+}
+.hongxing-div .time-p,.lexing-div .time-p{
+ 	line-height: 30px;
+ 	color: #999999;
+ 	font-size: 16px;
+ 	margin-left: 18px;
+ 	margin-bottom: 10px;
+ }
+ .hongxing-div p:last-child,.lexing-div p{
+ 	line-height: 20px;
+ 	color: #1c1c1c;
+ 	font-size: 14px;
+ 	margin-left: 18px;
+ }
+ .lexing-div{
+ 	margin-top: 40px;
+ }
